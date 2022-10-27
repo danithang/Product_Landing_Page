@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: #FAEBD7
+  }
+}
+
+body {
+  height: 125vh;
+  font-family: sans-serif;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+#header {
+background-color: #101010;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 80px;
+}
+
+#header-img {
+  height: 80px;
+  margin-left: 30px;
+}
+
+#nav-bar {
+   margin-right: auto;    
+    margin-left: auto;    
+    max-width: 100%;    
+    min-width: 1000px;
+}
+
+ul {
+  height: 100%;
+  float: right;
+  color: white;
+  display: flex;
+  flex-direction: row;
+justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+}
+
+#header li {
+  margin: 20px;
+}
+
+.nav {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+.nav .nav-link {
+  margin: 20px;
+  color: inherit;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#form {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#submit {
+  background-color: #FFA500;
+  padding: 15px 10px;
+  align-items: flex-start;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+h2 {
+  color: #0000FF;
+}
+
+#features {
+  margin-left: 20%;
+  margin-bottom: 40px;
+}
+
+#how_it_works {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+h3 {
+  background-color: #A9A9A9;
+  font-weight: 700;
+  width: 100%;
+  padding: 
+15px 0;  text-transform: uppercase;
+}
+
+.product1 {
+  border: 2px solid #2F4F4F;
+  padding: 10px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.product2 {
+  border: 2px solid #2F4F4F;
+  padding: 10px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.product3 {
+  border: 2px solid #2F4F4F;
+  padding: 10px;
+  text-align: center;
+}
+
+ol > li {
+  margin: 20px;
+}
+
+span {
+  font-weight: 700;
+}
+
+.select {
+  background-color: #FFA500;
+  padding: 10px 10px;
+  align-items: flex-start;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  font-weight: 700;
+}
